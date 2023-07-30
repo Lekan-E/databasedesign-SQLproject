@@ -33,3 +33,6 @@
 ### Project Flowchart
 
 The main procedures to accomplish this project can be summarized in the flow chart below:
+![alt text](https://github.com/Lekan-E/playersreport-project/blob/main/Flowchart.jpg)
+
+
