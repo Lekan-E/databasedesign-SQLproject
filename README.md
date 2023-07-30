@@ -1,5 +1,5 @@
 # playersreport-project
- SQL project involving collection and comparing my top Premier League players using extracted statistics by seasons.
+ SQL project involving the creation and management of a players database that has been populated by statistical data across various seasons.
 
  # Player Season Comparison Report
 
@@ -13,9 +13,22 @@
  ##  Introduction
 
  Along the years, stats/data has become a big part factor in how football is played and how players are being coached. <br />
- After reading a book **The Expected Goals Philosophy by James Tippett** is was inspired to work on this project. <br />
- My aim for this project to statistically compare how my favourite players performed as compared to seasons. The players used were my best players from different clubs around the English Premier League and I performed analysis based on playing positions (GK, DF, MID, ATT). <br />
+ The inspiration for this project came after reading a book **The Expected Goals Philosophy by James Tippett** <br />
+ My aim for this project to statistically compare how my favourite players performed in the 2022/2023 season as compared to the 2021/2022 season. I performed analysis based on playing positions (GK, DF, MID, ATT) from different players in the English Premier League. <br />
  Some data used for analysis were the following: <br/>
  * Expected Goals & Assists
  * Defensive Data i.e Tackles, Ball Recoveries, Interception
- * Attacking Data i.e Shots per 90, Takeon, Total Shots
+ * Attacking Data i.e Shots per 90, Takeon, Total Shots <br/>
+
+ ## Methodology
+ ### Tools
+ The tools used for analysis includes:
+ * MySQL - Database Management
+         - Running Advanced Queries/Calculations
+         - Comparison based on position and clubs
+ * Microsoft Excel - For inserting data into the database
+
+ The aim was to complete the project solely using MySQL but with Excel I could quickly insert the data into the database we created using My SQL.
+
+### Project Flowchart
+
