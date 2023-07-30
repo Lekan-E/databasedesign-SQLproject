@@ -21,14 +21,15 @@
  * Attacking Data i.e Shots per 90, Takeon, Total Shots <br/>
 
  ## Methodology
- ### Tools
+ ### Analytical Tools
  The tools used for analysis includes:
  * MySQL - Database Management
          - Running Advanced Queries/Calculations
          - Comparison based on position and clubs
  * Microsoft Excel - For inserting data into the database
 
- The aim was to complete the project solely using MySQL but with Excel I could quickly insert the data into the database we created using My SQL.
+**NOTE**: Future Improvements includes Tableau for Visuzaliation.
 
 ### Project Flowchart
 
+The main procedures to accomplish this project can be summarized in the flow chart below:
