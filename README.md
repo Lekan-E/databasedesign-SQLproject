@@ -49,8 +49,8 @@ Below is a sample SQL query [Figure 1] and corresponding output [Figure 2] of th
 
 ## Improvements
 Future improvements and additions for this project includes:
-* Tableau to help visualize the output
+* Tableau radar plots to help visualize the data
 * Add rankings based on different statistics using SQL - RANK & DENSE_RANK functions
-* Use python for web scraping the data to improve data integrity
-* Great a simple website for fans to choose and compare players based on statistical data
+* Use python for web scraping of data to improve data integrity
+* Create a simple website for fans to choose and compare players based on statistical data
 
