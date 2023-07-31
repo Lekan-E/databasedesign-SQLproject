@@ -40,7 +40,8 @@ The main procedures to accomplish this project can be summarized in the flow cha
 
 Below is a sample SQL query [Figure 1] and corresponding output [Figure 2] of the comparison made.
 
-![Alt text](sql_comparisoncode.jpg)
+![Alt text](Images\sql_comparisoncode.jpg)
+
 **Figure 1: Showing Multiple Joins and Calculations**
 
 ![Alt text](comparison_output.jpg)
