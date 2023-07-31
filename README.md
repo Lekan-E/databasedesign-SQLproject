@@ -1,20 +1,21 @@
 # playersreport-project
- SQL project involving database creation and management of a player's database that has been populated by statistical data across various seasons.
+The Statistical Data Collection and Analysis project is a database design and manipulation project focusing on the collection of players statistical data. Through the utilization of Microsoft Excel and MySQL, data extraction is carried out by running simple-to-advanced queries to compare data across different season and ranking of players based on their performance.![image](https://github.com/Lekan-E/playersreport-SQLproject/assets/77750253/d56baa1c-d200-48a3-b0e5-9db040f5474b)
+
 
  # Player Season Comparison Report
 
- This is a repository for a personal project to compare statistics of my favourite football(soccer) players according to different seasons. <br />
+ This is a repository for a personal project to compare statistics of my favorite football(soccer) players according to different seasons. <br />
  The data used for this project were all extracted from [FBRef](https://fbref.com/en/). <br />
  A full report - is also included showing the approach to the project. <br />
  
- All analyses and report were performed by **Olamilekan Razak Elegbede.**
+ All analyses and reports were performed by **Olamilekan Razak Elegbede.**
 
 
  ##  Introduction
 
  Over the years, stats/data has become a big part factor in how football is played, fans watch the game, fans pick their best players and how players are being coached. <br />
  The inspiration for this project came after reading a book **The Expected Goals Philosophy by James Tippett** <br />
- My aim for this project is to statistically compare how my favourite players performed in the 2022/2023 season as compared to the 2021/2022 season. I performed analysis based on playing positions (GK, DF, MID, ATT) from different players in the English Premier League. <br />
+ My aim for this project is to statistically compare how my favorite players performed in the 2022/2023 season as compared to the 2021/2022 season. I performed an analysis based on playing positions (GK, DF, MID, ATT) from different players in the English Premier League. <br />
  Some data used for analysis were the following: <br/>
  * Expected Goals & Assists
  * Defensive Data i.e Tackles, Ball Recoveries, Interception
