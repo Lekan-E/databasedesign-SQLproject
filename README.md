@@ -33,6 +33,19 @@
 ### Project Flowchart
 
 The main procedures to accomplish this project can be summarized in the flow chart below:
+
 ![alt text](https://github.com/Lekan-E/playersreport-project/blob/main/Flowchart.jpg)
+
+## Final Results
+
+Below is a sample SQL query [Figure 1] and corresponding output [Figure 2] of the comparison made.
+
+(![Alt text](sql_comparisoncode.jpg))
+**Figure 1: Showing Multiple Joins and Calculations**
+
+![Alt text](comparison_output.jpg)
+**Figure 2: Output of the Joins**
+
+## Improvements
 
 
