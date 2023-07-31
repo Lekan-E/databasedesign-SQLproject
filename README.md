@@ -1,5 +1,5 @@
 # playersreport-project
-The Statistical Data Collection and Analysis project is a database design and manipulation project focusing on the collection of players statistical data. Through the utilization of Microsoft Excel and MySQL, data extraction is carried out by running simple-to-advanced queries to compare data across different season and ranking of players based on their performance.![image](https://github.com/Lekan-E/playersreport-SQLproject/assets/77750253/d56baa1c-d200-48a3-b0e5-9db040f5474b)
+The Players Data Collection and Analysis project is a database design and manipulation project focusing on the collection of players' statistical data. Through the utilization of Microsoft Excel and MySQL, data extraction is carried out by running simple-to-advanced queries to compare data across different seasons and ranking players based on their performance.
 
 
  # Player Season Comparison Report
