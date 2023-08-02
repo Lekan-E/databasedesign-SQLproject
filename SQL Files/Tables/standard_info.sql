@@ -1,3 +1,7 @@
+-- Standard info table gives an overview of a players standard statistic information
+-- club_shirt: is a unique identifier with the club information and players number.
+-- season: is the season we are interested in
+
 SELECT* FROM standard;
 
 -- Insert standard
@@ -21,8 +25,7 @@ VALUES(
     2.0
 );
 
--- ARS7 MUN10 TOT10 NEW9 MCI9 BRE17 MCI10 ARS11 MCI17 ARS8 MUN8 ARS34 MCI16 BRI25 WHU41 ARS6 MCI25 LIV4
-
+-- Set values into table
 UPDATE standard
 SET penalty_goals = 7
 WHERE club_shirt = 'MCI9' AND season = '2022-2023';

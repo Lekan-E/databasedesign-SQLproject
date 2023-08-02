@@ -6,14 +6,14 @@ ball_recoveries, interception
 FROM defence;
 
 /*2022-2023*/
-/*CREATE TEMPORARY TABLE defence_info_22_23*/
+
 SELECT club_shirt, season, tackles, CONCAT(ROUND((tackles_won/tackles)*100,1),'%') as tackles_won,
 ball_recoveries, interception
 FROM defence
 WHERE season = '2022-2023';
 
 /*2021-2022*/
-/*CREATE TEMPORARY TABLE defence_info_21_22*/
+
 SELECT club_shirt, season, tackles, CONCAT(ROUND((tackles_won/tackles)*100,1),'%') as tackles_won,
 ball_recoveries, interception
 FROM defence

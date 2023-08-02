@@ -1,9 +1,6 @@
 -- Insert football_info
 set sql_safe_updates = 0;
 
-SELECT*
-FROM football_info;
-
 INSERT INTO football_info
 (
 	club_code,

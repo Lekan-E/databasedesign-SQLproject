@@ -1,4 +1,12 @@
 /*Standard Info Sheet */
+/* 
+This sheet provides us with the basic stats for each player according to the information we
+need such as the season.
+
+In every case the 'club_shirt' field is a unique identifier for each player and so
+it has been used to JOIN various tables.
+*/
+
 use players;
 
 SELECT st.club_shirt,se.season, se.matches_played, se.minutes_played, st.goals, st.assists,
@@ -28,17 +36,15 @@ JOIN seasons se ON se.club_shirt = st.club_shirt AND se.season = st.season
 JOIN defence de ON de.club_shirt = st.club_shirt AND de.season = se.season 
 where se.season = '2021-2022';
 
-/*Difference*/
-SELECT ss1.club_shirt
-FROM standard_season ss1
-JOIN standard_season ss2
-group by club_shirt;
+/*Difference between the two seasons
+Where we the difference in the stats is:
++ : the player performed BETTER
+- : the player performed LESS
+in that statistical field
 
-SELECT st2.club_shirt, (st2.goals - st1.goals) as difference_goals,
-(st2.assists - st1.assists) as difference_assists
-FROM standard st1
-JOIN standard st2 on st2.club_shirt = st1.club_shirt
-group by club_shirt;
+Example:
+A 'difference_goals = 13' means the player score 13 MORE goals than previous season. 
+*/
 
 SELECT
   fi.last_name,

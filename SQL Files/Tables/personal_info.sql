@@ -1,5 +1,6 @@
  -- Insert Values into the Tables
 SELECT * FROM players.players_info; 
+
  -- Insert player_info
 INSERT INTO players_info
 (

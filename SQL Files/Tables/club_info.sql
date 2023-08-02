@@ -11,5 +11,3 @@ VALUES(
     'Premier League'
 );
 
-SELECT *
-FROM club;

@@ -1,4 +1,7 @@
-/*Player Info Sheet */
+/*Player Info Sheet
+This query return the players personal information from the table
+then uses the 'birth_date' field to get players current AGE */
+
 use players;
 
 SELECT first_name, fi.last_name, TIMESTAMPDIFF(YEAR, birth_date, CURDATE()) as age, 
