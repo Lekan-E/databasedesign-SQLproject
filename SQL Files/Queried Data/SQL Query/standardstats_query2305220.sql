@@ -73,5 +73,17 @@ JOIN
 WHERE st1.season = '2021-2022' AND st2.season = '2022-2023'
 GROUP BY fi.club_shirt;
 
-
+-- Create a rank for goals involvements 
+SELECT fi.last_name,
+	   st.club_shirt,
+	   se.season, 
+       se.matches_played, 
+       se.minutes_played,
+       (st.goals+st.assists) as goal_involvments,
+	   RANK() OVER w AS ga_ranking
+FROM standard st
+JOIN seasons se ON se.club_shirt = st.club_shirt AND se.season = st.season
+JOIN football_info fi ON fi.club_shirt = st.CLUB_SHIRT
+WHERE se.season = '2022-2023'
+WINDOW w AS(order by (st.goals+st.assists) desc);
 
