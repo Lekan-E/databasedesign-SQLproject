@@ -22,6 +22,7 @@ WHERE season = '2021-2022';
 select * from defence;
 
 /*Difference between seasons - defence*/
+CREATE OR REPLACE VIEW defence_season_comparison AS
 SELECT fi.last_name, (d2.tackles-d1.tackles) as difference_tackles, 
 CONCAT(ROUND(((d2.tackles_won/d2.tackles)-(d1.tackles_won/d1.tackles))*100,1),'%') as difference_tackles_won,
 (d2.ball_recoveries-d1.ball_recoveries) as difference_ball_recoveries, 

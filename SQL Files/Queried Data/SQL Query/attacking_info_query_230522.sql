@@ -39,6 +39,7 @@ WHERE season = '2021-2022';
 
 
 /*Difference Between Seasons*/
+CREATE OR REPLACE VIEW attacking_season_comparison AS
 SELECT 
         fi.last_name, 
         (s2.total_shots - s1.total_shots) as difference_shots,

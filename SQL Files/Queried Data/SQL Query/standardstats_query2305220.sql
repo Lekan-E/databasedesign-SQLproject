@@ -45,7 +45,7 @@ in that statistical field
 Example:
 A 'difference_goals = 13' means the player score 13 MORE goals than previous season. 
 */
-
+CREATE OR REPLACE VIEW standard_season_comparison AS
 SELECT
   fi.last_name,
   se2.matches_played - se1.matches_played AS difference_matches_played,
