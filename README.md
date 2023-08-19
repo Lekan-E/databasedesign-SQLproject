@@ -50,7 +50,7 @@ Below is a sample SQL query [Figure 1] and the corresponding output [Figure 2] o
 
 **xG Chart**
 Below is a chart show Goals and Expected Goal Difference
-![Alt text]()
+![Alt text](https://github.com/Lekan-E/databasedesign-SQLproject/blob/main/Images/xG%20Chart.jpg)
 
 ## Improvements
 Future improvements and additions for this project include:
