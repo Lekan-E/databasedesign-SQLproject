@@ -48,7 +48,7 @@ Below is a sample SQL query [Figure 1] and the corresponding output [Figure 2] o
 ![Alt text](https://github.com/Lekan-E/playersreport-project/blob/main/Images/comparison_output.jpg)
 **Figure 2: Output of the Joins**
 
-**xG Chart**
+**xG Chart**<br/>
 Below is a chart show Goals and Expected Goal Difference
 ![Alt text](https://github.com/Lekan-E/databasedesign-SQLproject/blob/main/Images/xG%20Chart.jpg)
 
