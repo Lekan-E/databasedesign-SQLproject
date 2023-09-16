@@ -94,8 +94,7 @@ CREATE TABLE expected_stats (
         PRIMARY KEY (club_shirt, season)
 );
 
--- Insert & Update Table Data
-
+-- Insert New Table Data
 INSERT INTO player_info(first_name,last_name,date_of_birth,nationality,position,strong_foot) VALUES
 ();
 
@@ -119,3 +118,23 @@ INSERT INTO defence_stats(club_shirt,season,yellow,red,tackles,tackles_won,ball_
 
 INSERT INTO expected_stats(club_shirt,season,x_g,x_a) VALUES
 ();
+
+
+-- Create Procedure
+DROP PROCEDURE IF EXISTS standard_info;
+
+DELIMITER $$
+CREATE PROCEDURE p_standard_info(IN p_last_name VARCHAR(255), IN p_season VARCHAR(255))
+BEGIN
+	SELECT si.last_name, ss.goals, ss.assists, ss.matches_played
+    FROM standard_stats ss
+    JOIN season_info si ON si.club_shirt = ss.club_shirt AND si.season = ss.season
+    WHERE si.last_name = p_last_name AND si.season = p_season;
+END $$
+DELIMITER ;
+
+-- Insert player 'Last Name' and 'Season'
+call players.p_standard_info('Kane', '2021-2022');
+
+-- Temp Table to get players age
+
